@@ -34,7 +34,7 @@ async function getData(coordinate: Coordinate) {
         return response.data; // 返回从服务器获取的数据
     } catch (error) {
         console.error('Error in the request:', error);
-        throw error; // 重新抛出错误以便在调用者处处理
+        throw error;
     }
   }
 </script>
